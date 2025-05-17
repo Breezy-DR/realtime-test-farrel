@@ -10,3 +10,4 @@ Cara instalasi:
 2. Pilih IDE kesukaan Anda dan run kode main.py
 3. Input kalimat bahasa Inggris berupa teks yang ingin dianalisis.
 4. Akan keluar file answer.mp3 di direktori Anda.
+5. Putar file .mp3 tersebut untuk memperoleh jawaban Anda.
