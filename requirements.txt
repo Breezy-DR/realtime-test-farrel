@@ -1,0 +1,6 @@
+google-genai
+deepgram-sdk
+pydantic
+python-dotenv
+google
+simpleaudio
