@@ -8,7 +8,6 @@ from deepgram import (
     DeepgramClient,
     SpeakOptions,
 )
-import simpleaudio as sa
 
 load_dotenv()
 deepgram_key = os.getenv('DEEPGRAM_KEY')
@@ -52,8 +51,4 @@ try:
     print(response.to_json(indent=4))
 except Exception as e:
     print(f"Exception: {e}")
-
-wave_obj = sa.WaveObject.from_wave_file(filename)
-play_obj = wave_obj.play()
-play_obj.wait_done()
 
